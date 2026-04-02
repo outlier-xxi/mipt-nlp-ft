@@ -1,0 +1,19 @@
+[project]
+name = "hw02"
+version = "0.1.0"
+description = "Fine-Tuning LLM for Yoda character stylization"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.4",
+    "unsloth",
+    "transformers",
+    "peft",
+    "trl>=0.12,<0.15",
+    "datasets",
+    "accelerate",
+    "bitsandbytes",
+    "matplotlib",
+    "pandas",
+    "ipykernel",
+    "nbconvert",
+]
